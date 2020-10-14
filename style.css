@@ -3,16 +3,19 @@
 }
 
 li,
-ul
-body{ 
+ul{ 
     text-decoration: none;
     color: #69696a;
     background-color: #f9fafc;
     list-style-type: none;
     padding: 3pt;
     font-size: 15px;
-    margin: 0 auto;
 } 
+
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 a{
     text-decoration: none;
@@ -47,7 +50,6 @@ p{
     border-radius: 25px;
     background-color: #000;
     padding: 10px 0px 10px;
-    margin: 10px 1px
 }
     
 .call-button{ 
@@ -79,7 +81,7 @@ p{
 }
 
 .footer-links a{
-    background-color: rgba(247, 193, 162, 0.7);
+    background-color: transparent;
     color: #69696a;
     float: right;
     margin: 10px;
